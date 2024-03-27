@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+div#interfacee {
+    width: 1010px;
+    background-color: #ffffff;
+    margin:-10px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+    padding: 10px;
+}
+/* formatação do cabeçalho*/
+header#cabecalhoa {
+    border-bottom: 1px #606060 solid;
+    height: 170px;
+    background: url(../_imagens/glass-logo-peq.jpg) no-repeat 0px 90px;
+}
+header#cabecalhoa img#icone {
+    position: absolute;
+    left: 1250px;
+    top: 84px;
+}
+header#cabecalhoa h2 {
+    font-family: 'Titillium Web', sans-serif;
+    color: #888888;
+    font-size: 15pt;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+/* Formatação de video */
+
+div#tv-audio {
+    width: 900px;
+    height: 580px;
+    margin: auto;
+    background: url("../_imagens/radio-tv.png") no-repeat;
+}
+
+audio#musica {
+    display: block;
+    position: relative;
+    left: 574px;
+    top: 490px;
+    width: 300px;
+}
+
+video#filme {
+    display: block;
+    position: relative;
+    left: 88px;
+    top: 70px;
+    width: 440px;
+}
